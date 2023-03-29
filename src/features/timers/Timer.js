@@ -1,9 +1,7 @@
-import React from 'react';
-
 export default function createTimer(name) {
-  return{
+  return {
     name, 
-    time: 0,
+    time: 0, 
     isRunning: false
   }
 }
